@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">易传</string>
+
+    <string name="drawer_open">抽屉打开了</string>
+    <string name="drawer_close">抽屉关闭了</string>
+
+    <string name="app_item_name">软件名</string>
+</resources>

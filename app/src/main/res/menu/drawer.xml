@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_help"
+            android:icon="@mipmap/ic_action_help"
+            android:title="帮助" />
+        <item
+            android:id="@+id/navigation_item_info"
+            android:icon="@mipmap/ic_action_info"
+            android:title="关于" />
+        <item
+            android:id="@+id/navigation_item_share"
+            android:icon="@mipmap/ic_action_share"
+            android:title="分享此应用" />
+    </group>
+</menu>

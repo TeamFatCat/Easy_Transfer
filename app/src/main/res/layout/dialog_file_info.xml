@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/dialog_file_ui"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp">
+
+        <ImageView
+            android:id="@+id/dialog_icon_file_info"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/dialog_name_file_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:text="文件名:测试"
+            android:textColor="#B2000000"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/dialog_type_file_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingLeft="20dp"
+        android:text="类型:\t文件"
+        android:textColor="#B2000000"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/dialog_path_file_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingLeft="20dp"
+        android:text="路径:\t/aa/aaa"
+        android:textColor="#B2000000"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/dialog_size_file_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingLeft="20dp"
+        android:text="大小:\t156KB"
+        android:textColor="#B2000000"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/dialog_updatetime_file_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingLeft="20dp"
+        android:text="修改时间"
+        android:textColor="#B2000000"
+        android:textSize="14sp"/>
+
+
+    <TextView
+        android:id="@+id/dialog_premission_file_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingLeft="20dp"
+        android:text="权限:"
+        android:textColor="#B2000000"
+        android:textSize="14sp"/>
+</LinearLayout>

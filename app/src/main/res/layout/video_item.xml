@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/iv_video_item"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:src="@mipmap/ic_media" />
+
+    <TextView
+        android:id="@+id/tv_video_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/iv_video_item"
+        android:ellipsize="end"
+        android:paddingLeft="2dp"
+        android:singleLine="true"
+        android:text="视频名字"
+        android:textColor="@color/text_color"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tv_video_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_video_item"
+        android:layout_margin="3dp"
+        android:layout_toRightOf="@id/iv_video_item"
+        android:ellipsize="end"
+        android:paddingLeft="2dp"
+        android:singleLine="true"
+        android:text="视频大小"
+        android:textColor="@color/text_color"
+        android:textSize="12sp" />
+
+
+    <CheckBox
+        android:id="@+id/cx_video_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+</RelativeLayout>

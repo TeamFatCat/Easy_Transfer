@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <!-- 窗口的背景颜色 -->
+        <!--<item name="android:windowBackground">@android:color/white</item>-->
+        <!-- 窗口标题的背景颜色 -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="CustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">#4876FF</item>
+    </style>
+
+
+
+
+</resources>

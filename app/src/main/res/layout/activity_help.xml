@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="如何与其他端建立连接？"
+        android:textColor="#B2000000"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="1. 通过悬浮按钮，一方创建连接，等待手机连接\n\n2. 另一方等待连接创建完毕，点击搜索加入"
+        android:textColor="#B2000000"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="如何与其他端发送文件？"
+        android:textColor="#B2000000"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="1. 连接完成之后，长按需要发送的文件\n\n2. 弹出文件操作窗口，选择发送文件"
+        android:textColor="#B2000000"
+        android:textSize="16sp"/>
+
+
+
+</LinearLayout>
