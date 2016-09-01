@@ -10,9 +10,11 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import com.fatcat.easy_transfer.R;
 import com.fatcat.easy_transfer.entity.Mp3Info;
 import com.fatcat.easy_transfer.utils.MusicUtils;
+
 import java.util.ArrayList;
 import java.util.List;
 
